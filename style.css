@@ -1,0 +1,63 @@
+body{
+    letter-spacing: -.5px;
+}
+
+.nav-a{
+    font-size: 12px;
+    font-weight: 300;
+}
+.header-nav-a{
+    font-size: 13px;
+    font-weight: 700;
+}
+.search-inpt {
+    width: 80%;
+}
+.mini-logo{
+    width: 35px;
+    height: 35px;
+    font-weight: 800;
+    
+}
+
+main{
+    background-color: #f5f5f5;
+}
+.bg-white{
+    background: white;
+}
+.overley{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 20%;
+    background-image:  linear-gradient(to top, rgba(0, 0, 0, 0.253) , rgba(26, 26, 20, 0));
+}
+.brand-logo{
+        top: -25px;
+        left: calc( 50% - 29px)
+        
+}
+.product-name {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    
+   
+}
+.fa-star{
+    font-size: 11px;
+    color: orange;
+}
+
+.hover:hover{
+    box-shadow: 5px 5px 25px rgba(192, 192, 192, 0.39);
+   
+}
+.card:hover{
+    box-shadow: 5px 5px 25px rgba(156, 155, 155, 0.377);
+   
+}
